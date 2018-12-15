@@ -5,20 +5,35 @@ This repository contains all databases, taken from UCI repository, and specially
 Folder databases contains all 25 databases used in this study. All databases were dounloaded fro UCI repositories and transformed into matlab format. 
 
 Main folder contains main script "MainTest" and several used functions. Script Main test can be startsed for diffrent purposes which specified by variable <b>what</b>. Some subscripts can be further customised by commetaries (see corresponding fragments, which are started from <b>case </b>.
+
 %what is parameter to control process - use value
+
 % 0 to generate the new dataset and save it
+
 % 1 to load data from file
+
 % 2 to calculate maximal and minimal distances for one dataset
+
 % 3 to calculate table with min, max, mean and std without normalisation.
+
 % 4, 5, 6 to calculate res files for different normalisations. This
+
 %   calculation requires huge time. Code is optimised to use parallel
+
 %   calculation and was tested on usual laptop and computational cluster.
+
 % 7 to convert calculated Res files to MS Excel for readability
+
 % 8 to apply Friedman test and Nomenyi post hoc test.
+
 % 9 to apply Wilcoxon signed rank test to compare metrics
+
 % 10 to apply Wilcoxon signed rank test to compare preprocessing
+
 % 11 Reproduction of Table 2
+
 % 12 Creation figures for table 2 explanation
+
 % 13 Draw figure with unit circles
 
 Main folder also contains several mat files with used data
