@@ -6,8 +6,7 @@ Folder databases contains all 25 databases used in this study. All databases wer
 
 Main folder contains main script "MainTest" and several used functions. Script Main test can be startsed for diffrent purposes which specified by variable <b>what</b>. Some subscripts can be further customised by commetaries (see corresponding fragments, which are started from <b>case </b>.
 
-%what is parameter to control process - use value
-
+%what is parameter to control process - use value <br>
 % 0 to generate the new dataset and save it
 
 % 1 to load data from file
